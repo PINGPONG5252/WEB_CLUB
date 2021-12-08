@@ -1,0 +1,48 @@
+body {
+  background-color: #24292f;
+}
+
+.main_header {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  font-size: 90px;
+  font-weight: 600;
+  background-color: blue;
+}
+
+.main_nav {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  height: 800px;
+  margin-left: 60px;
+  margin-top: 200px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 80px;
+}
+
+.main_nav i {
+  font-size: 70px;
+}
+
+.nav_icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(210, 255, 234);
+  width: 80%;
+  height: 300px;
+}
+
+.nav_icons span {
+  margin-top: 14px;
+}
+
+.nav_icons a {
+  cursor: pointer;
+}
