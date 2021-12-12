@@ -24,6 +24,7 @@
 
   .nav_icons {
     height: 150px;
+    box-shadow: 5px 5px rgb(104, 103, 103), 10px 10px 15px rgb(31, 31, 31);
   }
 
   .nav_icons a {
