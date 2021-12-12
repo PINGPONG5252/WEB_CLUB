@@ -4,7 +4,7 @@
 
 @import "reset.css";
 
-@media (min-width: 160px) and (max-width: 500px) {
+@media (min-width: 160px) and (max-width: 550px) {
   .main_header {
     font-size: 65px;
   }
