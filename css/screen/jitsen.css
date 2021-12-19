@@ -1,0 +1,36 @@
+main {
+  height: 100vh;
+}
+
+.jisen {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  row-gap: 60px;
+  margin-top: 200px;
+  width: 100%;
+}
+
+.jisen div {
+  height: 80px;
+}
+
+.jisen_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1500px;
+  margin-left: 40px;
+  background-color: rgb(255, 212, 132);
+  border: 3px solid white;
+}
+
+.techer_name {
+  display: flex;
+}
+
+.techer_name h3:last-child {
+  margin-left: 20px;
+}

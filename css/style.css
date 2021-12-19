@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap");
 
+/*screen*/
 @import "screen/index.css";
+@import "screen/class.css";
+@import "screen/jitsen.css";
 
 @import "reset.css";
 
@@ -49,6 +52,5 @@ body {
 }
 
 h2 {
-  margin-top: 200px;
   font-size: 40px;
 }
