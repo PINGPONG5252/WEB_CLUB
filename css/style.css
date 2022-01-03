@@ -34,11 +34,11 @@
 
   .main_nav a:hover {
     box-shadow: inset 3px 3px 1px rgb(78, 78, 78), 2px 2px 1px rgb(83, 83, 83),
-      10px 10px 10px rgb(31, 31, 31);
+      2px 2px 1px rgb(31, 31, 31);
   }
   .main_nav a:active {
     box-shadow: inset 5px 5px 1px rgb(78, 78, 78), 2px 2px 1px rgb(83, 83, 83),
-      10px 10px 10px rgb(31, 31, 31);
+      2px 2px 1px rgb(31, 31, 31);
   }
 
   .nav-back span {
