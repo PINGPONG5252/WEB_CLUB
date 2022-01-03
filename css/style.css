@@ -9,8 +9,11 @@
 @import "reset.css";
 
 @media (min-width: 160px) and (max-width: 550px) {
+  body {
+    height: 100vh;
+  }
   .main_header {
-    font-size: 65px;
+    font-size: 55px;
   }
 
   .main_header h1 {
