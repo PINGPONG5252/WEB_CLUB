@@ -1,5 +1,5 @@
 body {
-  background-color: #454e58;
+  background-color: white;
 }
 
 .main_header {
@@ -11,9 +11,9 @@ body {
   height: 100px;
   font-size: 90px;
   font-weight: 600;
-  color: #021630;
+  color: #052a5a;
   text-shadow: 3px 3px 1px white;
-  box-shadow: 15px 25px #05397c, 20px 30px 10px rgb(1, 16, 36);
+  box-shadow: 0px 0px 5px rgb(1, 16, 36);
   border-radius: 0 0 10px 10px;
   background-color: #0865db;
 }
@@ -33,101 +33,106 @@ body {
 .main_nav i {
   font-size: 90px;
   color: white;
+  margin-bottom: 20px;
 }
 
-.nav_icons {
+.main_nav a {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(210, 255, 234);
   width: 80%;
   height: 300px;
   border-radius: 20%;
   transition: 0.1s ease-in;
-  box-shadow: 10px 10px rgb(104, 103, 103), 15px 15px 20px rgb(31, 31, 31);
+  box-shadow: 10px 10px rgb(255, 255, 255), 10px 10px 5px rgb(31, 31, 31);
 }
 
-.nav_icons:hover {
+.nav-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-back span {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.main_nav a:hover {
   box-shadow: inset 10px 10px 2px rgb(78, 78, 78), 2px 2px 1px rgb(83, 83, 83),
     10px 10px 10px rgb(31, 31, 31);
 }
 
-.nav_icons:active {
+.main_nav a:active {
   box-shadow: inset 20px 20px 2px rgb(78, 78, 78), 2px 2px 1px rgb(83, 83, 83),
     10px 10px 10px rgb(31, 31, 31);
 }
 
-.nav_icons a {
-  padding-top: 64px;
-  font-size: 25px;
-  font-weight: 600;
-  color: white;
-}
-
-.nav_icons a {
+.nav_icons {
   cursor: pointer;
 }
 
-.nav_icons:nth-child(1) {
-  background-color: brown;
+.main_nav a:nth-child(1) {
+  background-color: rgb(212, 88, 88);
 }
 
-.nav_icons:nth-child(1):hover {
+.main_nav a:nth-child(1):hover {
   background-color: rgb(97, 26, 26);
 }
 
-.nav_icons:nth-child(2) {
+.main_nav a:nth-child(2) {
   background-color: cornflowerblue;
 }
 
-.nav_icons:nth-child(2):hover {
+.main_nav a:nth-child(2):hover {
   background-color: rgb(55, 81, 129);
 }
 
-.nav_icons:nth-child(3) {
+.main_nav a:nth-child(3) {
   background-color: darkgreen;
 }
 
-.nav_icons:nth-child(3):hover {
+.main_nav a:nth-child(3):hover {
   background-color: rgb(0, 39, 0);
 }
 
-.nav_icons:nth-child(4) {
-  background-color: indianred;
+.main_nav a:nth-child(4) {
+  background-color: rgb(138, 96, 216);
 }
 
-.nav_icons:nth-child(4):hover {
+.main_nav a:nth-child(4):hover {
   background-color: rgb(75, 33, 33);
 }
 
-.nav_icons:nth-child(5) {
+.main_nav a:nth-child(5) {
   background-color: orange;
 }
 
-.nav_icons:nth-child(5):hover {
+.main_nav a:nth-child(5):hover {
   background-color: rgb(117, 76, 0);
 }
 
-.nav_icons:nth-child(6) {
+.main_nav a:nth-child(6) {
   background-color: silver;
 }
-.nav_icons:nth-child(6):hover {
+.main_nav a:nth-child(6):hover {
   background-color: rgb(104, 104, 104);
 }
 
-.nav_icons:nth-child(7) {
+.main_nav a:nth-child(7) {
   background-color: teal;
 }
 
-.nav_icons:nth-child(7):hover {
+.main_nav a:nth-child(7):hover {
   background-color: rgb(0, 59, 59);
 }
 
-.nav_icons:nth-child(8) {
+.main_nav a:nth-child(8) {
   background-color: rgb(207, 207, 25);
 }
 
-.nav_icons:nth-child(8):hover {
+.main_nav a:nth-child(8):hover {
   background-color: rgb(112, 112, 14);
 }

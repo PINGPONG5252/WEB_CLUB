@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 
 /*screen*/
 @import "screen/index.css";
 @import "screen/class.css";
 @import "screen/jitsen.css";
+@import "screen/link.css";
 
 @import "reset.css";
 
