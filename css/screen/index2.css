@@ -31,7 +31,7 @@ body {
   align-items: center;
   width: 80%;
   height: 800px;
-  margin-top: 200px;
+  margin-top: 250px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   row-gap: 80px;
@@ -49,7 +49,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 400px;
+  height: 300px;
   transition: 0.1s ease-in;
   transform: rotateZ(50deg);
 }
@@ -74,8 +74,8 @@ body {
 
 .main_nav a:nth-child(1) {
   background-color: rgb(212, 88, 88);
-  box-shadow: -25px -25px rgb(255, 255, 255), -25px -25px 5px rgb(212, 88, 88),
-    25px 25px rgb(255, 255, 255), 25px 25px 5px rgb(212, 88, 88);
+  box-shadow: -30px -30px rgb(255, 255, 255), -30px -30px 5px rgb(212, 88, 88),
+    30px 30px rgb(255, 255, 255), 30px 30px 5px rgb(212, 88, 88);
 }
 
 .main_nav a:nth-child(1):hover {
@@ -84,8 +84,8 @@ body {
 
 .main_nav a:nth-child(2) {
   background-color: cornflowerblue;
-  box-shadow: -25px -25px rgb(255, 255, 255), -25px -25px 5px cornflowerblue,
-    25px 25px rgb(255, 255, 255), 25px 25px 5px cornflowerblue;
+  box-shadow: -20px -20px rgb(255, 255, 255), -20px -20px 5px cornflowerblue,
+    20px 20px rgb(255, 255, 255), 20px 20px 5px cornflowerblue;
 }
 
 .main_nav a:nth-child(2):hover {
@@ -94,8 +94,8 @@ body {
 
 .main_nav a:nth-child(3) {
   background-color: darkgreen;
-  box-shadow: -25px -25px rgb(255, 255, 255), -25px -25px 5px darkgreen,
-    25px 25px rgb(255, 255, 255), 25px 25px 5px darkgreen;
+  box-shadow: -30px -30px rgb(255, 255, 255), -30px -30px 5px darkgreen,
+    30px 30px rgb(255, 255, 255), 30px 30px 5px darkgreen;
 }
 
 .main_nav a:nth-child(3):hover {
@@ -104,8 +104,8 @@ body {
 
 .main_nav a:nth-child(4) {
   background-color: rgb(138, 96, 216);
-  box-shadow: -25px -25px rgb(255, 255, 255), -25px -25px 5px rgb(138, 96, 216),
-    25px 25px rgb(255, 255, 255), 25px 25px 5px rgb(138, 96, 216);
+  box-shadow: -20px -20px rgb(255, 255, 255), -20px -20px 5px rgb(138, 96, 216),
+    20px 20px rgb(255, 255, 255), 20px 20px 5px rgb(138, 96, 216);
 }
 
 .main_nav a:nth-child(4):hover {
@@ -114,8 +114,8 @@ body {
 
 .main_nav a:nth-child(5) {
   background-color: orange;
-  box-shadow: -25px -25px rgb(255, 255, 255), -25px -25px 5px orange,
-    25px 25px rgb(255, 255, 255), 25px 25px 5px orange;
+  box-shadow: -30px -30px rgb(255, 255, 255), -30px -30px 5px orange,
+    30px 30px rgb(255, 255, 255), 30px 30px 5px orange;
 }
 
 .main_nav a:nth-child(5):hover {
@@ -124,8 +124,8 @@ body {
 
 .main_nav a:nth-child(6) {
   background-color: silver;
-  box-shadow: -25px -25px rgb(255, 255, 255), -25px -25px 5px silver,
-    25px 25px rgb(255, 255, 255), 25px 25px 5px silver;
+  box-shadow: -20px -20px rgb(255, 255, 255), -20px -20px 5px silver,
+    20px 20px rgb(255, 255, 255), 20px 20px 5px silver;
 }
 .main_nav a:nth-child(6):hover {
   background-color: rgb(104, 104, 104);
@@ -133,8 +133,8 @@ body {
 
 .main_nav a:nth-child(7) {
   background-color: teal;
-  box-shadow: -25px -25px rgb(255, 255, 255), -25px -25px 5px teal,
-    25px 25px rgb(255, 255, 255), 25px 25px 5px teal;
+  box-shadow: -30px -30px rgb(255, 255, 255), -30px -30px 5px teal,
+    30px 30px rgb(255, 255, 255), 30px 30px 5px teal;
 }
 
 .main_nav a:nth-child(7):hover {
@@ -143,8 +143,8 @@ body {
 
 .main_nav a:nth-child(8) {
   background-color: rgb(207, 207, 25);
-  box-shadow: -25px -25px rgb(255, 255, 255), -25px -25px 5px rgb(207, 207, 25),
-    25px 25px rgb(255, 255, 255), 25px 25px 5px rgb(207, 207, 25);
+  box-shadow: -20px -20px rgb(255, 255, 255), -20px -20px 5px rgb(207, 207, 25),
+    20px 20px rgb(255, 255, 255), 20px 20px 5px rgb(207, 207, 25);
 }
 
 .main_nav a:nth-child(8):hover {
@@ -153,8 +153,8 @@ body {
 
 .main_nav a:nth-child(9) {
   background-color: rgb(255, 131, 172);
-  box-shadow: -25px -25px rgb(255, 255, 255), -25px -25px 5px rgb(255, 131, 172),
-    25px 25px rgb(255, 255, 255), 25px 25px 5px rgb(255, 131, 172);
+  box-shadow: -30px -30px rgb(255, 255, 255), -30px -30px 5px rgb(255, 131, 172),
+    30px 30px rgb(255, 255, 255), 30px 30px 5px rgb(255, 131, 172);
 }
 
 .main_nav a:nth-child(9):hover {
