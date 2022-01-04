@@ -68,26 +68,32 @@
 
   .main_nav a:nth-child(5) {
     background-color: orange;
-    box-shadow: -5px -5px rgb(255, 255, 255), -5px -5px 2px orange,
-      5px 5px rgb(255, 255, 255), 5px 5px 2px orange;
+    box-shadow: -8px -8px rgb(255, 255, 255), -8px -8px 2px orange,
+      8px 8px rgb(255, 255, 255), 8px 8px 2px orange;
   }
 
   .main_nav a:nth-child(6) {
     background-color: silver;
-    box-shadow: -8px -8px rgb(255, 255, 255), -8px -8px 2px silver,
-      8px 8px rgb(255, 255, 255), 8px 8px 2px silver;
+    box-shadow: -5px -5px rgb(255, 255, 255), -5px -5px 2px silver,
+      5px 5px rgb(255, 255, 255), 5px 5px 2px silver;
   }
 
   .main_nav a:nth-child(7) {
     background-color: teal;
-    box-shadow: -5px -5px rgb(255, 255, 255), -5px -5px 2px teal,
-      5px 5px rgb(255, 255, 255), 5px 5px 2px teal;
+    box-shadow: -8px -8px rgb(255, 255, 255), -8px -8px 2px teal,
+      8px 8px rgb(255, 255, 255), 8px 8px 2px teal;
   }
 
   .main_nav a:nth-child(8) {
     background-color: rgb(207, 207, 25);
-    box-shadow: -8px -8px rgb(255, 255, 255), -8px -8px 2px rgb(207, 207, 25),
-      8px 8px rgb(255, 255, 255), 8px 8px 2px rgb(207, 207, 25);
+    box-shadow: -5px -5px rgb(255, 255, 255), -5px -5px 2px rgb(207, 207, 25),
+      5px 5px rgb(255, 255, 255), 5px 5px 2px rgb(207, 207, 25);
+  }
+
+  .main_nav a:nth-child(9) {
+    background-color: rgb(255, 131, 172);
+    box-shadow: -8px -8px rgb(255, 255, 255), -8px -8px 2px rgb(255, 131, 172),
+      8px 8px rgb(255, 255, 255), 8px 8px 2px rgb(255, 131, 172);
   }
 
   .main_nav a:hover {

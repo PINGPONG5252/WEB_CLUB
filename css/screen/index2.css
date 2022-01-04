@@ -32,8 +32,8 @@ body {
   width: 80%;
   height: 800px;
   margin-top: 200px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   row-gap: 80px;
   column-gap: 70px;
 }
@@ -149,6 +149,16 @@ body {
 
 .main_nav a:nth-child(8):hover {
   background-color: rgb(112, 112, 14);
+}
+
+.main_nav a:nth-child(9) {
+  background-color: rgb(255, 131, 172);
+  box-shadow: -25px -25px rgb(255, 255, 255), -25px -25px 5px rgb(255, 131, 172),
+    25px 25px rgb(255, 255, 255), 25px 25px 5px rgb(255, 131, 172);
+}
+
+.main_nav a:nth-child(9):hover {
+  background-color: rgb(153, 79, 103);
 }
 
 .main_nav a:hover {
