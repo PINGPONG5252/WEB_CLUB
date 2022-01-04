@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500;700&display=swap");
 /*screen*/
 @import "screen/index.css";
+@import "screen/index2.css";
 @import "screen/class.css";
 @import "screen/jitsen.css";
 @import "screen/link.css";
@@ -20,31 +21,80 @@
   }
   .main_nav {
     row-gap: 20px;
-    margin-left: 10px;
+    column-gap: 20px;
+    margin-left: 60px;
     height: 300px;
     margin-top: 120px;
+    margin-right: 60px;
   }
 
   .main_nav i {
-    font-size: 40px;
+    font-size: 23px;
   }
 
   .main_nav a {
-    height: 120px;
-    box-shadow: 5px 5px rgb(255, 255, 255), 5px 5px 2px rgb(31, 31, 31);
-  }
-
-  .main_nav a:hover {
-    box-shadow: inset 3px 3px 1px rgb(78, 78, 78), 2px 2px 1px rgb(83, 83, 83),
-      2px 2px 1px rgb(31, 31, 31);
-  }
-  .main_nav a:active {
-    box-shadow: inset 5px 5px 1px rgb(78, 78, 78), 2px 2px 1px rgb(83, 83, 83),
-      2px 2px 1px rgb(31, 31, 31);
+    height: 90px;
+    width: 80px;
   }
 
   .nav-back span {
-    font-size: 10px;
+    font-size: 6px;
+    margin-bottom: 20px;
+  }
+
+  .main_nav a:nth-child(1) {
+    background-color: rgb(212, 88, 88);
+    box-shadow: -8px -8px rgb(255, 255, 255), -8px -8px 2px rgb(212, 88, 88),
+      8px 8px rgb(255, 255, 255), 8px 8px 2px rgb(212, 88, 88);
+  }
+
+  .main_nav a:nth-child(2) {
+    background-color: cornflowerblue;
+    box-shadow: -5px -5px rgb(255, 255, 255), -5px -5px 2px cornflowerblue,
+      5px 5px rgb(255, 255, 255), 5px 5px 2px cornflowerblue;
+  }
+
+  .main_nav a:nth-child(3) {
+    background-color: darkgreen;
+    box-shadow: -8px -8px rgb(255, 255, 255), -8px -8px 2px darkgreen,
+      8px 8px rgb(255, 255, 255), 8px 8px 2px darkgreen;
+  }
+
+  .main_nav a:nth-child(4) {
+    background-color: rgb(138, 96, 216);
+    box-shadow: -5px -5px rgb(255, 255, 255), -5px -5px 2px rgb(138, 96, 216),
+      5px 5px rgb(255, 255, 255), 5px 5px 2px rgb(138, 96, 216);
+  }
+
+  .main_nav a:nth-child(5) {
+    background-color: orange;
+    box-shadow: -5px -5px rgb(255, 255, 255), -5px -5px 2px orange,
+      5px 5px rgb(255, 255, 255), 5px 5px 2px orange;
+  }
+
+  .main_nav a:nth-child(6) {
+    background-color: silver;
+    box-shadow: -8px -8px rgb(255, 255, 255), -8px -8px 2px silver,
+      8px 8px rgb(255, 255, 255), 8px 8px 2px silver;
+  }
+
+  .main_nav a:nth-child(7) {
+    background-color: teal;
+    box-shadow: -5px -5px rgb(255, 255, 255), -5px -5px 2px teal,
+      5px 5px rgb(255, 255, 255), 5px 5px 2px teal;
+  }
+
+  .main_nav a:nth-child(8) {
+    background-color: rgb(207, 207, 25);
+    box-shadow: -8px -8px rgb(255, 255, 255), -8px -8px 2px rgb(207, 207, 25),
+      8px 8px rgb(255, 255, 255), 8px 8px 2px rgb(207, 207, 25);
+  }
+
+  .main_nav a:hover {
+    box-shadow: 2px 2px 1px rgb(83, 83, 83), 4px 4px 1px rgb(31, 31, 31);
+  }
+  .main_nav a:active {
+    box-shadow: 2px 2px 1px rgb(83, 83, 83), 2px 2px 1px rgb(31, 31, 31);
   }
 }
 body {
