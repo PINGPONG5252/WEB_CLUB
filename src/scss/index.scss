@@ -1,0 +1,174 @@
+body {
+  background-color: rgb(223, 229, 255);
+}
+
+.main_header {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  font-size: 90px;
+  font-weight: 600;
+  color: #052a5a;
+  text-shadow: 3px 3px 1px white;
+  box-shadow: 0px 0px 5px rgb(1, 16, 36);
+  border-radius: 0 0 10px 10px;
+  background-color: #0865db;
+  z-index: 3;
+}
+
+.nav-all {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.main_nav {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 800px;
+  margin-top: 250px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 100px;
+  column-gap: 70px;
+}
+
+.main_nav i {
+  font-size: 90px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.main_nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  transition: 0.1s ease-in;
+  transform: rotateZ(50deg);
+}
+
+.nav-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotateZ(-50deg);
+}
+
+.nav-back span {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav_icons {
+  cursor: pointer;
+}
+
+.main_nav a:nth-child(1) {
+  background-color: rgb(212, 88, 88);
+  box-shadow: -30px -30px rgb(255, 255, 255), -30px -30px 5px rgb(212, 88, 88),
+    30px 30px rgb(255, 255, 255), 30px 30px 5px rgb(212, 88, 88);
+}
+
+.main_nav a:nth-child(1):hover {
+  background-color: rgb(97, 26, 26);
+}
+
+.main_nav a:nth-child(2) {
+  background-color: cornflowerblue;
+  box-shadow: -20px -20px rgb(255, 255, 255), -20px -20px 5px cornflowerblue,
+    20px 20px rgb(255, 255, 255), 20px 20px 5px cornflowerblue;
+}
+
+.main_nav a:nth-child(2):hover {
+  background-color: rgb(55, 81, 129);
+}
+
+.main_nav a:nth-child(3) {
+  background-color: darkgreen;
+  box-shadow: -30px -30px rgb(255, 255, 255), -30px -30px 5px darkgreen,
+    30px 30px rgb(255, 255, 255), 30px 30px 5px darkgreen;
+}
+
+.main_nav a:nth-child(3):hover {
+  background-color: rgb(0, 39, 0);
+}
+
+.main_nav a:nth-child(4) {
+  background-color: rgb(138, 96, 216);
+  box-shadow: -20px -20px rgb(255, 255, 255), -20px -20px 5px rgb(138, 96, 216),
+    20px 20px rgb(255, 255, 255), 20px 20px 5px rgb(138, 96, 216);
+}
+
+.main_nav a:nth-child(4):hover {
+  background-color: rgb(75, 33, 33);
+}
+
+.main_nav a:nth-child(5) {
+  background-color: orange;
+  box-shadow: -30px -30px rgb(255, 255, 255), -30px -30px 5px orange,
+    30px 30px rgb(255, 255, 255), 30px 30px 5px orange;
+}
+
+.main_nav a:nth-child(5):hover {
+  background-color: rgb(117, 76, 0);
+}
+
+.main_nav a:nth-child(6) {
+  background-color: silver;
+  box-shadow: -20px -20px rgb(255, 255, 255), -20px -20px 5px silver,
+    20px 20px rgb(255, 255, 255), 20px 20px 5px silver;
+}
+.main_nav a:nth-child(6):hover {
+  background-color: rgb(104, 104, 104);
+}
+
+.main_nav a:nth-child(7) {
+  background-color: teal;
+  box-shadow: -30px -30px rgb(255, 255, 255), -30px -30px 5px teal,
+    30px 30px rgb(255, 255, 255), 30px 30px 5px teal;
+}
+
+.main_nav a:nth-child(7):hover {
+  background-color: rgb(0, 59, 59);
+}
+
+.main_nav a:nth-child(8) {
+  background-color: rgb(207, 207, 25);
+  box-shadow: -20px -20px rgb(255, 255, 255), -20px -20px 5px rgb(207, 207, 25),
+    20px 20px rgb(255, 255, 255), 20px 20px 5px rgb(207, 207, 25);
+}
+
+.main_nav a:nth-child(8):hover {
+  background-color: rgb(112, 112, 14);
+}
+
+.main_nav a:nth-child(9) {
+  background-color: rgb(255, 131, 172);
+  box-shadow: -30px -30px rgb(255, 255, 255), -30px -30px 5px rgb(255, 131, 172),
+    30px 30px rgb(255, 255, 255), 30px 30px 5px rgb(255, 131, 172);
+}
+
+.main_nav a:nth-child(9):hover {
+  background-color: rgb(153, 79, 103);
+}
+
+.main_nav a:hover {
+  box-shadow: 2px 2px 1px rgb(255, 255, 255), 10px 10px 2px rgb(77, 77, 77);
+}
+
+.main_nav a:active {
+  box-shadow: 0px 0px 1px rgb(83, 83, 83), 5px 5px 4px rgb(31, 31, 31);
+}
+
+.dark_mode i {
+  color: rgb(31, 15, 20);
+}
